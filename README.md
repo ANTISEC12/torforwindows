@@ -59,7 +59,7 @@ Set local proxy addresses:<br />
 	- IP: `127.0.0.1` with Port: `8118`	# http/https proxy. This port is powered by [Privoxy](https://gitlab.com/antisec/torforwindows#privoxy). Privoxy forwards Socks5t on 8118!
 <div align="center"><a href="switchyomega"><img src="http://s9.picofile.com/file/8341668726/omega.png"></a></div> <br />
 
-# System Wide P	roxy
+# System Wide Proxy
 To apply System-Wide Proxy with Tor, you should to start Tor + Privoxy!!!<br /> 
 If you run start.cmd, both Tor and Privoxy runs automatically.
 <div align="center"><a href="SystemWide Proxy"><img src="http://s8.picofile.com/file/8293239568/Capture.PNG"></a></div> <br />
