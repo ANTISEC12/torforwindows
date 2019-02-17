@@ -2,7 +2,8 @@
 <h4>This is a manual page of torforwindows!</h4>
 
 # Introduction
-<h2>This project allows you to easily use the [TOR](https://www.torproject.org/index.html.en) software (+[Bridges](https://www.torproject.org/docs/bridges.html.en)) on your WindowsOS!</h2><br />
+<h2>This project allows you to easily use the <a href="https://www.torproject.org/index.html.en">TOR</a>
+ software + <a href="https://www.torproject.org/docs/bridges.html.en">Bridges</a> on your WindowsOS!</h2><br />
 
 The project includes;
 - Start.cmd (A batch file to autorun the "Tor.exe,Privoxy.exe")
