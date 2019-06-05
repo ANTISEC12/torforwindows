@@ -21,7 +21,7 @@ To start TOR, just run the start.cmd (batch file) <br />
 When the tor is starting, look for the bootstrapped and make sure the bootstrapped is = 100%.<br />
 <div align="center"><a href="Tor"><img src="http://s8.picofile.com/file/8341550468/Screenshot_from_2018_11_02_08_50_04.png"></a></div> <br />
  
- `! Never close the cmd (start.cmd). If the cmd is closed, the tor closes.` <br />
+ `! Never close the cmd (start.cmd). will the cmd closed, the tor closes.` <br />
 If the bootstrapped does not = 100%, it means you can not connect to the Tor network!<br />
  `! At the first, check your Internet connection. If your internet connection is good? try to perss CTRL + C and run the start.cmd again to see bootstrapped = 100%.`  <br />
 If the bootstrapped does not = 100% again, it means you can not connect to the Tor network without bridges. <br />
