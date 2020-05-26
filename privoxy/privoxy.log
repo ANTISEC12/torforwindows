@@ -25,3 +25,4 @@
 2019-05-14 17:13:07.512 000011a4 Fatal error: can't bind to 127.0.0.1:8118: There may be another Privoxy or some other proxy running on port 8118
 2019-05-27 11:25:15.548 00000674 Fatal error: can't bind to 127.0.0.1:8118: There may be another Privoxy or some other proxy running on port 8118
 2019-05-27 11:27:32.693 000017f0 Fatal error: can't bind to 127.0.0.1:8118: There may be another Privoxy or some other proxy running on port 8118
+2019-06-05 22:48:05.778 000013b4 Fatal error: can't bind to 127.0.0.1:8118: There may be another Privoxy or some other proxy running on port 8118
