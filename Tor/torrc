@@ -186,8 +186,8 @@ SocksPort 9050 # Default: Bind to localhost:9050 for local connections.
 ## a private bridge, for example because you'll give out your bridge
 ## address manually to your friends, uncomment this line:
 #PublishServerDescriptor 0
-
 # Try for at most NUM seconds when building circuits. If the circuit isn't
+
  # open in that time, give up on it. (Default: 1 minute.)
  CircuitBuildTimeout 5
  # Send a padding cell every N seconds to keep firewalls from closing our
@@ -197,17 +197,19 @@ SocksPort 9050 # Default: Bind to localhost:9050 for local connections.
  NewCircuitPeriod 15
  # How many entry guards should we keep at a time?
  NumEntryGuards 8
+UseBridges 1
 
-#UseBridges 1
 ## obfs4proxy configuration
-#ClientTransportPlugin obfs4 exec obfs4proxy
-#Bridge obfs4 104.236.237.76:9443 F68BBB77DA245790969057EE608E6B14283655EB cert=lxPxDTtghn56dGKbQ2vicevpXiUHNzJpSxCLMd76A8MhbKPVQqurd9Uf4sx7yOfYDA5dBw iat-mode=0
-#Bridge obfs4 85.159.237.97:9418 FF7030283C326B0AF40546409E88C8612B8EF48A cert=fPOn9jkIrlPawTzNZGUpN3Uatrh9jQcP0UpnPkfttjW5WiPP1mVffExSs6GgAgnBO97lOA iat-mode=0
-#Bridge obfs4 192.241.227.8:9443 1E1B1035B5B53B580D382E64EFD5A120559501C3 cert=O2Ss1zTF8VFCTkPwPsBucIY0af3rpWCO3CUVMH6ss+9T2qgc8YW+CeyQJFktRoa0uD1POA iat-mode=0
-##Bridge obfs4 141.201.27.48:45785 930BCC47E73EA6436BD4AFD471BF828C55061052 cert=oVrcOJZdMcZZ44hOztd0kRXXhb8w63sTCe3wHPOTDwKkeaFxJUaFNfkm5LowJztusYToeg iat-mode=0
-#Bridge obfs4 138.68.180.50:9443 C4704B06F24276716E8B1E5483DCC59369317A74 cert=gtGsV10Xp45/vJ21l11gk305JBMXMKumhzo6egAHCp4HX1oiGnvYmjQHW2JN6wTiprcpCg iat-mode=0
-#Bridge obfs4 185.106.120.19:443 13CD52C858501590934430D8C3BA2ABBD3A4384E cert=khcigTI9D5qHsixyLyazD1xFA1wcpbKK2UtTlKjaQiMJU1ghWcw8hRQ/rbf4f2VmnhG7Xw iat-mode=0
-#Bridge obfs4 71.57.247.183:43332 F406482090AA8ECAAD9596BBB6BB8279672A3920 cert=uv42DxkfmXN1JThwdD5z3SbLb1URKhNx9VnEHsAdqkGI9LuJS47l2QtJUpr2JvLWc2eSBQ iat-mode=0
+ClientTransportPlugin obfs4 exec obfs4proxy
+
+Bridge obfs4 104.236.237.76:9443 F68BBB77DA245790969057EE608E6B14283655EB cert=lxPxDTtghn56dGKbQ2vicevpXiUHNzJpSxCLMd76A8MhbKPVQqurd9Uf4sx7yOfYDA5dBw iat-mode=0
+Bridge obfs4 85.159.237.97:9418 FF7030283C326B0AF40546409E88C8612B8EF48A cert=fPOn9jkIrlPawTzNZGUpN3Uatrh9jQcP0UpnPkfttjW5WiPP1mVffExSs6GgAgnBO97lOA iat-mode=0
+Bridge obfs4 192.241.227.8:9443 1E1B1035B5B53B580D382E64EFD5A120559501C3 cert=O2Ss1zTF8VFCTkPwPsBucIY0af3rpWCO3CUVMH6ss+9T2qgc8YW+CeyQJFktRoa0uD1POA iat-mode=0
+Bridge obfs4 141.201.27.48:45785 930BCC47E73EA6436BD4AFD471BF828C55061052 cert=oVrcOJZdMcZZ44hOztd0kRXXhb8w63sTCe3wHPOTDwKkeaFxJUaFNfkm5LowJztusYToeg iat-mode=0
+Bridge obfs4 138.68.180.50:9443 C4704B06F24276716E8B1E5483DCC59369317A74 cert=gtGsV10Xp45/vJ21l11gk305JBMXMKumhzo6egAHCp4HX1oiGnvYmjQHW2JN6wTiprcpCg iat-mode=0
+Bridge obfs4 185.106.120.19:443 13CD52C858501590934430D8C3BA2ABBD3A4384E cert=khcigTI9D5qHsixyLyazD1xFA1wcpbKK2UtTlKjaQiMJU1ghWcw8hRQ/rbf4f2VmnhG7Xw iat-mode=0
+Bridge obfs4 71.57.247.183:43332 F406482090AA8ECAAD9596BBB6BB8279672A3920 cert=uv42DxkfmXN1JThwdD5z3SbLb1URKhNx9VnEHsAdqkGI9LuJS47l2QtJUpr2JvLWc2eSBQ iat-mode=0
+
 ##To use specific countries Comment above commands and Uncomment commands on down (2 letter ISO3166 country code)
 
 ##ExitNodes is your exitnode in TOR Network! (your location forexample: "ExitNodes {us, ca}" set your location to (UnitedStates, Canada)
